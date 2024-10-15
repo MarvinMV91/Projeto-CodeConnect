@@ -114,6 +114,9 @@ botaoPublicar.addEventListener("click", async (evento) => {
     }
 });
 
+const botaoDescartar = document.querySelector(".botao-descartar");
+
+
 botaoDescartar.addEventListener("click", (evento) => {
     evento.preventDefault();
 
@@ -124,4 +127,4 @@ botaoDescartar.addEventListener("click", (evento) => {
     nomeDaImagem.textContent = "image_projeto.png";
 
     listaTags.innerHTML = "";
-})
+});
